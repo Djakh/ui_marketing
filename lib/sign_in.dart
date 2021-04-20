@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ui_marketing/sign_up.dart';
-
 import 'package:ui_marketing/widgets.dart';
+
 
 class SignIn extends StatelessWidget {
   static const routeName = "/sign_in";
@@ -44,7 +44,8 @@ class SignIn extends StatelessWidget {
                     SizedBox(
                       height: 15,
                     ),
-                   widget.signFlatButton (),
+                    //Sign in Button
+                   widget.signFlatButton(context),
                     SizedBox(
                       height: 20,
                     ),

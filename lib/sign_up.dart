@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ui_marketing/sign_in.dart';
 import 'package:ui_marketing/widgets.dart';
+
+
 class SignUp extends StatelessWidget {
   static const routeName = "/sign_up";
    Widgets widget = new Widgets();
@@ -50,7 +52,7 @@ class SignUp extends StatelessWidget {
                     SizedBox(
                       height: 15,
                     ),
-                   widget.signFlatButton (),
+                   widget.signFlatButton (context),
                  
                 widget.textButton(context, SignIn.routeName, "Sign in", "Do you have an account? "),
                     
