@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ui_marketing/sign_in.dart';
-import 'package:ui_marketing/sign_in.dart';
+
 
 class Loading extends StatefulWidget {
   static const routeName = "/loading";
